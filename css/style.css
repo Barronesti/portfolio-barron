@@ -1,0 +1,404 @@
+:root{
+	font-size: 10px;
+}
+body{
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	font-weight: 400;
+	color: #333;
+	font-family: 'Mulish', sans-serif;
+}
+.header{
+	padding: 0.5rem 0rem;
+	background: rgba(0, 0, 0, 0.7);
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10px);
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 999;
+}
+ul.navbar-nav li.nav-item{
+	margin-right: 4rem;
+	position: relative;
+}
+ul.navbar-nav li a.nav-link{
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #7a7a7a;
+	padding: 0rem;
+	transition: 0.5s all;
+}
+ul.navbar-nav li a.nav-link.active, ul.navbar-nav li a.nav-link:hover{
+	color: #fff;
+}
+ul.navbar-nav li:hover ul.menu-child{
+	display: block;
+}
+ul.menu-child{
+	background: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(10px);
+	width: 25rem;
+	position: absolute;
+	top: 100%;
+	list-style: none;
+	padding: 0rem;
+	margin: 0rem;
+	display: none;
+}
+ul.menu-child li a{
+	padding: 1rem 2rem;
+	display: block;
+	color: #7a7a7a;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	font-family: 'Mulish', sans-serif;
+}
+ul.menu-child li a:hover{
+	color: #fff;
+	transition: 0.5s all;
+}
+h1{
+	color: #04BF9D;
+	font-size: 7.2rem;
+	line-height: 10.8rem;
+	font-weight: 700;
+	margin: 2rem 0rem 0rem 0rem;
+}
+h2{
+	color: #04BF9D;
+	font-size: 3.6rem;
+	line-height: 4.5rem;
+	font-weight: 700;
+}
+h3{
+	color: #fff;
+	font-size: 2.8rem;
+	line-height: 4.2rem;
+	font-weight: 500;
+}
+p.big-text{
+	color: #D1D1D1;
+	font-size: 3rem;
+	line-height: 3.6rem;
+	font-weight: 400;
+}
+p.text-bold{
+	font-weight: 700;
+	color: #333;
+	margin: 0rem;
+}
+p.medium-text{
+	font-weight: 500;
+	color: #333;
+}
+a.very-small-text{
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	font-weight: 400;
+	color: #818274;
+	margin: 0rem;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+p.small-text{
+	font-size: 1.4rem;
+	line-height: 2.1rem;
+	color: #333;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8{
+	padding: 0rem 1rem;
+}
+
+
+
+
+
+/*HOME*/
+
+
+body.home-body{
+	background: url(../img/home-background.png) center center;
+	background-size: cover;
+	color: #fff;
+	padding: 23rem 0rem;
+}
+.home-content{
+	margin-top: 20rem;
+}
+ul.social{
+	list-style: none;
+	margin: 0rem;
+	padding: 0rem;
+}
+ul.social li{
+	margin-right: 1.5rem;
+}
+ul.social li:last-child{
+	margin: 0rem;
+}
+ul.social li a{
+	color: #7a7a7a;
+	transition: 0.5s all;
+}
+ul.social li a:hover{
+	color: #fff;
+}
+a.home-btn{
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 3rem;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 1.8rem 5rem;
+	border: 1.5px solid #fff;
+	border-radius: 5px;
+	margin-top: 20rem;
+	display: inline-block;
+	transition: 0.5s all;
+}
+a.home-btn:hover{
+	background: #04BF9D;
+	color: #fff;
+	border: 1.5px solid #04BF9D;
+	box-shadow: 0rem 0rem 1.5rem #00BC9C;
+}
+
+
+
+
+
+/*ABOUT ME*/
+
+
+body.about-body{
+	background: url(../img/about-background.png) center center;
+	background-size: cover;
+	color: #333;
+	padding: 15rem 0rem;
+}
+
+.box, .education-box, .tool-box, .more-box{
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+	background: #fff;
+	display: block;
+	border-radius: 0.5rem;
+}
+.infor-content{
+	width: 50%;
+	padding: 8rem 11rem;
+	border-radius: 5px;
+}
+.infor-picture{
+	width: 50%;
+	background: url(../img/infor-picture.png) center center;
+	background-size: cover;
+	border-radius: 5px;
+}
+table.infor td{
+	font-size: 1.4rem;
+	line-height: 2.1rem;
+	font-weight: 300;
+	color: #506266;
+}
+table.infor th{
+	color: #333;
+}
+
+
+.informations, .hobbies, .education, .tool, .more{
+	margin-bottom: 8rem;
+}
+
+
+.hobbies{
+	background: url(../img/hobbies.png) center center;
+	background-size: cover;
+	color: #f2f2f2;
+	padding: 5rem;
+}
+ul.hobby{
+	margin-top: 5rem;
+	padding: 0rem;
+}
+ul.hobby li{
+	list-style: none;
+	padding: 1rem;
+	transition: 0.5s ease;
+}
+ul.hobby:hover li{
+	color: #fff;
+}
+ul.hobby:hover li:not(:hover){
+	color: #818274;
+	opacity: 0.3;
+	filter: blur(1px);
+}
+.hobbies p{
+	margin-top: 0.5rem;
+}
+
+
+.education-box, .tool-box, .more-box{
+	padding: 5rem 0rem;
+}
+.education p.text-bold, .education p.very-small-text, .education p.small-text{
+	text-align: left;
+}
+.education p.small-text{
+	margin: 1rem 0rem 0rem 0rem;
+}
+a.link{
+	font-size: 1.4rem;
+	line-height: 2.1rem;
+	text-align: left;
+	display: block;
+}
+.year-2023{
+	margin-top: 4.5rem;
+}
+
+
+.scale-img{
+	overflow: hidden;
+	background: #000;
+	border-radius: 5px;
+}
+.scale-img img{
+	transition: all 0.5s;
+}
+.scale-img img:hover{
+	transform: scale(1.2);
+	opacity: 80%;
+}
+a.download{
+	padding: 1.5rem 7rem;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-weight: 500;
+	color: #333;
+	border: 1.5px solid #333;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+a.download:hover{
+	background: #04BF9D;
+	color: #fff;
+	border: 1.5px solid #04BF9D;
+	box-shadow: 0rem 0rem 1.5rem #00BC9C;
+}
+
+
+
+
+
+/*PORTFOLIO*/
+
+
+body.portfolio-body, body.graphic-body, body.contact-body{
+	background: url(../img/portfolio-background.png) center center;
+	background-size: cover;
+	padding: 23rem 0rem;
+}
+.portfolio-box{
+	position: relative;
+	border-radius: 5px;
+	filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+.portfolio-box img{
+	width: 100%;
+	transition: opacity 0.9s ease-in-out;
+}
+.portfolio-box img.hidden{
+	position: absolute;
+	left: 0;
+}
+.portfolio-box img.hidden:hover{
+	opacity: 0;
+}
+
+
+
+
+/*GRAPHIC*/
+body.graphic-body{
+	padding: 14rem 0rem 6rem 0rem;
+}
+a.breadcrumb{
+	color: #04BF9D;
+	text-decoration: none;
+}
+.graphic-body .scale-img{
+	filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.1));
+	margin-bottom: 2rem;
+}
+.none{
+	margin-bottom: 2rem;
+}
+body.graphic-body img{
+	width: 100%;
+}
+
+
+
+
+
+/*FOUR PAWS*/
+
+
+.fourpaws-content{
+	margin: 3.6rem 0rem;
+}
+a.newtab{
+	padding: 1.5rem 2.5rem;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-weight: 500;
+	color: #333;
+	border: 1.5px solid #333;
+	border-radius: 5px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+a.newtab:hover{
+	background: #04BF9D;
+	color: #fff;
+	border: 1.5px solid #04BF9D;
+	box-shadow: 0rem 0rem 1.5rem #00BC9C;
+}
+
+
+
+
+
+/*CONTACT*/
+
+.contact-box{
+	padding: 6rem;
+	background: #fff;
+	border-radius: 5px;
+}
+.contact-box p{
+	margin: 4rem 0rem;
+}
+a.contact{
+	color: #506266;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+a.contact:hover{
+	color: #04BF9D;
+}
